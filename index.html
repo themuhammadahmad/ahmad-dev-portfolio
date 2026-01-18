@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects Portfolio</title>
+   <title>Our Projects | Developer Duo Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
 </head>
+
 <body>
     <!-- Header with navigation -->
     <header>
         <div class="container nav-container">
-            <div class="logo">Dev<span>Portfolio</span></div>
+            <div class="logo">Dev<span>Duo</span></div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -28,21 +33,41 @@
     <!-- Hero section with introduction -->
     <section class="hero" id="home">
         <div class="container">
-            <h1>Hi, I'm a Developer</h1>
+            <h1>Hi, We're a Developer Duo</h1>
             <p>
-                Welcome to my portfolio! I specialize in creating <span class="highlight">Chrome extensions</span>, 
-                <span class="highlight">backend systems</span>, and <span class="highlight">web applications</span>. 
-                I enjoy solving real-world problems through clean, efficient code and user-friendly interfaces.
-                Below you'll find a collection of my recent projects.
+                Welcome to our portfolio! We specialize in creating <span class="highlight">Chrome extensions</span>,
+                <span class="highlight">backend systems</span>, and <span class="highlight">web applications</span>.
+                We enjoy solving real-world problems through clean, efficient code and user-friendly interfaces.
+                Below you'll find a collection of our collaborative projects.
             </p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <h2 class="section-title">Our Team</h2>
+            <div class="team-members">
+                                <div class="team-member">
+                    <div class="member-avatar">HM</div>
+                    <h3>Hamza Maqbool</h3>
+                    <p>Backend & Systems Architecture</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">MA</div>
+                    <h3>Muhammad Ahmad</h3>
+                    <p>Frontend & Chrome Extension Specialist</p>
+                </div>
+
+            </div>
         </div>
     </section>
 
     <!-- Projects section -->
     <section class="projects" id="projects">
         <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            
+            <h2 class="section-title">Our Projects</h2>
+
             <!-- Project category tabs -->
             <div class="category-tabs">
                 <button class="category-btn active" data-category="all">All Projects</button>
@@ -65,7 +90,7 @@
                         </div>
                         <h3 class="project-title">Tab Manager Pro</h3>
                         <p class="project-description">
-                            A powerful Chrome extension to manage and organize browser tabs efficiently. 
+                            A powerful Chrome extension to manage and organize browser tabs efficiently.
                             Reduces memory usage and increases productivity.
                         </p>
                         <div class="project-links">
@@ -91,7 +116,7 @@
                         </div>
                         <h3 class="project-title">Secure Password Manager</h3>
                         <p class="project-description">
-                            A secure password manager with Chrome extension and Node.js backend. 
+                            A secure password manager with Chrome extension and Node.js backend.
                             Features end-to-end encryption and cross-device sync.
                         </p>
                         <div class="project-links">
@@ -116,7 +141,7 @@
                         </div>
                         <h3 class="project-title">E-commerce API</h3>
                         <p class="project-description">
-                            A robust RESTful API for an e-commerce platform built with Node.js and MongoDB. 
+                            A robust RESTful API for an e-commerce platform built with Node.js and MongoDB.
                             Includes authentication, payment processing, and order management.
                         </p>
                         <div class="project-links">
@@ -141,7 +166,7 @@
                         </div>
                         <h3 class="project-title">TaskFlow Dashboard</h3>
                         <p class="project-description">
-                            A responsive task management dashboard with drag-and-drop functionality, 
+                            A responsive task management dashboard with drag-and-drop functionality,
                             real-time updates, and team collaboration features.
                         </p>
                         <div class="project-links">
@@ -166,7 +191,7 @@
                         </div>
                         <h3 class="project-title">Dark Mode Everywhere</h3>
                         <p class="project-description">
-                            A Chrome extension that automatically applies dark mode to any website. 
+                            A Chrome extension that automatically applies dark mode to any website.
                             Customizable per-site settings and scheduling options.
                         </p>
                         <div class="project-links">
@@ -193,7 +218,7 @@
                         </div>
                         <h3 class="project-title">Bookmark Sync Platform</h3>
                         <p class="project-description">
-                            A complete bookmark management system with Chrome extension, web dashboard, 
+                            A complete bookmark management system with Chrome extension, web dashboard,
                             and backend API for syncing across devices.
                         </p>
                         <div class="project-links">
@@ -214,16 +239,16 @@
     <footer id="contact">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">Dev<span>Portfolio</span></div>
-                
+                <div class="footer-logo">Dev<span>Duo</span></div>
+
                 <div class="contact-info">
-                    <p>Feel free to reach out for collaborations or just to say hello!</p>
+                    <p>Feel free to reach out for collaborations or partnership opportunities!</p>
                     <!-- You can update these contact details later -->
                     <p><i class="fas fa-envelope"></i> email@example.com</p>
                     <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
                     <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
                 </div>
-                
+
                 <div class="social-icons">
                     <!-- You can update these social links later -->
                     <a href="#" class="social-icon" title="GitHub">
@@ -239,7 +264,7 @@
                         <i class="fab fa-stack-overflow"></i>
                     </a>
                 </div>
-                
+
                 <div class="copyright">
                     &copy; <span id="currentYear"></span> DevPortfolio. All rights reserved.
                 </div>
@@ -249,4 +274,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
