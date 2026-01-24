@@ -29,7 +29,7 @@
 // Project filtering functionality
 const categoryButtons = document.querySelectorAll('.category-btn');
 const projectCards = document.querySelectorAll('.project-card');
-
+let asdf =5;
 categoryButtons.forEach(button => {
     button.addEventListener('click', function() {
         // Remove active class from all buttons
