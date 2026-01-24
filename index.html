@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Our Projects | Developer Duo Portfolio</title>
+    <title>Our Projects | Developer Team Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <style>
@@ -16,7 +16,7 @@
     <!-- Header with navigation -->
     <header>
         <div class="container nav-container">
-            <div class="logo">Dev<span>Duo</span></div>
+            <div class="logo">Dev<span>Team</span></div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -33,11 +33,15 @@
     <!-- Hero section with introduction -->
     <section class="hero" id="home">
         <div class="container">
-            <h1>Hi, We're a Developer Duo</h1>
+            <h1>Hi, We're a Developer Team</h1>
+            <!-- Lines 27-31 -->
             <p>
-                Welcome to our portfolio! We specialize in creating <span class="highlight">Chrome extensions</span>,
-                <span class="highlight">backend systems</span>, and <span class="highlight">web applications</span>.
-                We enjoy solving real-world problems through clean, efficient code and user-friendly interfaces.
+                Welcome to our portfolio! We're a multidisciplinary team specializing in
+                <span class="highlight">Chrome extensions</span>,
+                <span class="highlight">backend systems</span>,
+                <span class="highlight">web applications</span>,
+                <span class="highlight">mobile apps</span>, and
+                <span class="highlight">desktop software</span>.
                 Below you'll find a collection of our collaborative projects.
             </p>
         </div>
@@ -47,18 +51,33 @@
     <section class="team">
         <div class="container">
             <h2 class="section-title">Our Team</h2>
+            <!-- Replace the current team-members div (lines 44-55) with: -->
             <div class="team-members">
-                                <div class="team-member">
+                <div class="team-member">
+                    <div class="member-avatar">MA</div>
+                    <h3>Muhammad Ahmad</h3>
+                    <p>Frontend & Chrome Extensions</p>
+                </div>
+                <div class="team-member">
                     <div class="member-avatar">HM</div>
                     <h3>Hamza Maqbool</h3>
                     <p>Backend & Systems Architecture</p>
                 </div>
                 <div class="team-member">
-                    <div class="member-avatar">MA</div>
-                    <h3>Muhammad Ahmad</h3>
-                    <p>Frontend & Chrome Extension Specialist</p>
+                    <div class="member-avatar">AK</div>
+                    <h3>Alex Kim</h3>
+                    <p>Mobile App Development</p>
                 </div>
-
+                <div class="team-member">
+                    <div class="member-avatar">SR</div>
+                    <h3>Sarah Rodriguez</h3>
+                    <p>UI/UX & Web Design</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">TJ</div>
+                    <h3>Tom Johnson</h3>
+                    <p>DevOps & Cloud Infrastructure</p>
+                </div>
             </div>
         </div>
     </section>
@@ -68,13 +87,15 @@
         <div class="container">
             <h2 class="section-title">Our Projects</h2>
 
-            <!-- Project category tabs -->
+            <!-- Update category tabs (lines 70-76) to include: -->
             <div class="category-tabs">
                 <button class="category-btn active" data-category="all">All Projects</button>
                 <button class="category-btn" data-category="chrome">Chrome Extensions</button>
+                <button class="category-btn" data-category="mobile">Mobile Apps</button>
                 <button class="category-btn" data-category="backend">Backend</button>
                 <button class="category-btn" data-category="web">Websites</button>
-                <button class="category-btn" data-category="combined">Combined</button>
+                <button class="category-btn" data-category="desktop">Desktop Apps</button>
+                <button class="category-btn" data-category="combined">Full Stack</button>
             </div>
 
             <!-- Projects grid -->
@@ -231,6 +252,32 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Add this new project after the last one (around line 165) -->
+                <!-- Mobile App Project -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag mobile">Mobile App</span>
+                        </div>
+                        <h3 class="project-title">FitTracker Pro</h3>
+                        <p class="project-description">
+                            A cross-platform fitness tracking app with workout plans,
+                            nutrition logging, and progress analytics.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -239,10 +286,11 @@
     <footer id="contact">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">Dev<span>Duo</span></div>
+                <div class="footer-logo">Dev<span>Team</span></div>
 
                 <div class="contact-info">
-                    <p>Feel free to reach out for collaborations or partnership opportunities!</p>
+                   <!-- Line 273 -->
+<p>Feel free to reach out for team collaborations or partnership opportunities!</p>
                     <!-- You can update these contact details later -->
                     <p><i class="fas fa-envelope"></i> email@example.com</p>
                     <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>

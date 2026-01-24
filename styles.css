@@ -289,7 +289,21 @@
      border-radius: 20px;
      font-size: 0.85rem;
  }
+/* Add these after existing .project-tag styles (around line 190) */
+.project-tag.mobile {
+    background-color: #81ecec;
+    color: #0984e3;
+}
 
+.project-tag.desktop {
+    background-color: #a29bfe;
+    color: #6c5ce7;
+}
+
+.project-tag.devops {
+    background-color: #55efc4;
+    color: #00b894;
+}
  .project-tag.chrome {
      background-color: #ffeaa7;
      color: #d35400;
