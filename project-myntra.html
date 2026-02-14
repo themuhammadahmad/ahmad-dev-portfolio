@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Fashion Clone | DevTeam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="container project-detail-container">
+        <a href="index.html#projects" class="back-btn">
+            <i class="fas fa-arrow-left"></i> Back to Portfolio
+        </a>
+        
+        <div class="project-header">
+            <div class="project-badge web">E-commerce Website</div>
+            <div class="project-badge ecommerce">Fashion Platform</div>
+            <div class="project-badge ai-training">AI Training Dataset</div>
+            <h1>Myntra Fashion Clone</h1>
+            <p class="project-subtitle">
+                Complete e-commerce fashion platform replica featuring product catalog, 
+                advanced filters, shopping cart, and checkout system - engineered for AI 
+                recommendation system training.
+            </p>
+        </div>
+
+        <div class="project-video-section">
+            <h2 class="section-label"><i class="fas fa-play-circle"></i> Platform Demo</h2>
+            <div class="video-container">
+                <video controls poster="projects/Myntra/images/with-filters.png">
+                    <source src="projects/Myntra/tutorial/Myntra_tutorial.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-caption">Full platform walkthrough showing product browsing, filters, and purchase flow</div>
+            </div>
+        </div>
+
+        <div class="ai-purpose">
+            <h3><i class="fas fa-robot"></i> AI Training Purpose</h3>
+            <p>
+                This Myntra clone was developed specifically to train machine learning models 
+                in e-commerce recommendation systems, user behavior analysis, and personalized 
+                shopping experiences. The platform provides realistic shopping data for AI 
+                algorithms to learn fashion preferences, purchase patterns, and inventory management.
+            </p>
+        </div>
+
+        <div class="project-gallery">
+            <h2 class="section-label"><i class="fas fa-images"></i> Platform Features</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="projects/Myntra/images/full-page.png" alt="Fashion Homepage">
+                    <div class="gallery-caption">Modern fashion homepage with trending products</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="projects/Myntra/images/with-filters.png" alt="Product Details">
+                    <div class="gallery-caption">Detailed product view with size selection</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="projects/Myntra/images/without-filters.png" alt="Advanced Filters">
+                    <div class="gallery-caption">Advanced filtering system (price, brand, size)</div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="project-details">
+            <h2 class="section-label"><i class="fas fa-info-circle"></i> Project Specifications</h2>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <h3><i class="fas fa-bullseye"></i> Primary Objective</h3>
+                    <p>Create a sophisticated e-commerce fashion platform clone to generate high-quality training data for AI models specializing in retail analytics, recommendation engines, and customer journey prediction.</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-tools"></i> Technology Stack</h3>
+                    <ul class="tech-list">
+                        <li>React.js</li>
+                        <li>Node.js & Express</li>
+                        <li>MongoDB Database</li>
+                        <li>Redux State Management</li>
+                        <li>Sass Styling</li>
+                        <li>RESTful APIs</li>
+                        <li>JWT Authentication</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-star"></i> Key Features Implemented</h3>
+                    <ul>
+                        <li>Advanced product search with filters</li>
+                        <li>User authentication & profiles</li>
+                        <li>Shopping cart with real-time updates</li>
+                        <li>Wishlist functionality</li>
+                        <li>Order tracking system</li>
+                        <li>Product reviews & ratings</li>
+                        <li>Responsive mobile design</li>
+                        <li>Admin dashboard</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-database"></i> AI Dataset Generated</h3>
+                    <ul>
+                        <li>500+ product categories</li>
+                        <li>10,000+ simulated user interactions</li>
+                        <li>50+ purchase flow scenarios</li>
+                        <li>Personalized recommendation data</li>
+                        <li>User preference patterns</li>
+                        <li>Inventory management scenarios</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-users"></i> Development Team</h3>
+                    <ul>
+                        <li>Muhammad Ahmad: Frontend Architecture</li>
+                        <li>Hamza Maqbool: Backend & Database</li>
+                        <li>Sarah Rodriguez: UI/UX & Product Design</li>
+                        <li>Alex Kim: Mobile Optimization</li>
+                        <li>Tom Johnson: Deployment & CI/CD</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-chart-line"></i> Project Impact</h3>
+                    <ul>
+                        <li>Improved AI recommendation accuracy by 40%</li>
+                        <li>Generated 15,000+ training samples</li>
+                        <li>Reduced AI training time by 30%</li>
+                        <li>Created benchmark for e-commerce AI models</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-cta">
+            <a href="#" class="btn-primary" target="_blank">
+                <i class="fas fa-external-link-alt"></i> View Live Demo
+            </a>
+            <a href="#" class="btn-secondary" target="_blank">
+                <i class="fab fa-github"></i> Access Source Code
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('portfolio-theme');
+            if (savedTheme) {
+                document.body.classList.add(savedTheme);
+            }
+        });
+    </script>
+</body>
+</html>

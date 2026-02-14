@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southwest Airlines Clone | DevTeam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <div class="container project-detail-container">
+        <a href="index.html#projects" class="back-btn">
+            <i class="fas fa-arrow-left"></i> Back to Portfolio
+        </a>
+
+        <!-- Header section -->
+        <div class="project-header">
+            <div class="project-badge web">Website Clone</div>
+            <div class="project-badge ai-training">AI Training Dataset</div>
+            <h1>Hotels.com Clone</h1>
+            <p class="project-subtitle">
+                Full-featured replica of hotels.com with hotel search, booking system,
+                and user reviews - created as comprehensive AI training dataset.
+            </p>
+        </div>
+
+        <div class="project-video-section">
+            <h2 class="section-label"><i class="fas fa-play-circle"></i> Project Demo</h2>
+            <div class="video-container">
+                <video controls poster="./projects/Hotels.com/images/with-filters.png">
+                    <source src="./projects/Hotels.com/tutorial/Hotes_Tutorial.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-caption">Video demonstration showing full functionality and responsive behavior</div>
+            </div>
+        </div>
+
+        <!-- AI Purpose Section -->
+        <div class="ai-purpose">
+            <h3><i class="fas fa-robot"></i> AI Training Purpose</h3>
+            <p>
+                This hotels.com clone was engineered specifically for training machine learning
+                models in e-commerce pattern recognition, search algorithm testing, and
+                recommendation system development. It provides a complete e-commerce ecosystem
+                for AI training purposes.
+            </p>
+        </div>
+
+        <div class="project-gallery">
+            <h2 class="section-label"><i class="fas fa-images"></i> Screenshots</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./projects/Hotels.com/images/full-page.png" style="object-fit: cover;object-position: 0 -200px;" alt="Homepage Layout">
+                    <div class="gallery-caption">Homepage - Complete UI replication</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./projects/Hotels.com/images/with-filters.png" alt="Booking System">
+                    <div class="gallery-caption">Flight Confirmation</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="projects/Hotels.com/images/without-filters.png" alt="Responsive Design">
+                    <div class="gallery-caption">Mobile responsive version</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="project-details">
+            <h2 class="section-label"><i class="fas fa-info-circle"></i> Project Details</h2>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <h3><i class="fas fa-bullseye"></i> Project Objective</h3>
+                    <p>Create a pixel-perfect clone of southwest.com to serve as high-quality training data for machine
+                        learning models specializing in web interaction patterns and UI recognition.</p>
+                </div>
+
+                <div class="detail-card">
+                    <h3><i class="fas fa-tools"></i> Tech Stack</h3>
+                    <ul class="tech-list">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Figma (Design)</li>
+                        <li>Git Version Control</li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3><i class="fas fa-check-circle"></i> Key Features</h3>
+                    <ul>
+                        <li>Pixel-perfect UI replication</li>
+                        <li>Interactive flight booking system</li>
+                        <li>Responsive mobile design</li>
+                        <li>Complete user authentication flow</li>
+                        <li>Payment processing simulation</li>
+                        <li>Admin dashboard interface</li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3><i class="fas fa-users"></i> Development Team</h3>
+                    <ul>
+                        <li>Muhammad Ahmad: Frontend Development</li>
+                        <li>Hamza Maqbool: Backend & APIs</li>
+                        <li>Sarah Rodriguez: UI/UX Design</li>
+                        <li>Tom Johnson: DevOps & Deployment</li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3><i class="fas fa-database"></i> AI Training Data</h3>
+                    <ul>
+                        <li>5,000+ labeled UI components</li>
+                        <li>200+ interaction scenarios</li>
+                        <li>10+ complete user journeys</li>
+                        <li>Mobile & desktop variants</li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <h3><i class="fas fa-calendar-alt"></i> Timeline</h3>
+                    <ul>
+                        <li>Planning & Design: 2 weeks</li>
+                        <li>Development: 3 weeks</li>
+                        <li>Testing & QA: 1 week</li>
+                        <li>Documentation: 3 days</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-cta">
+            <a href="#" class="btn-primary" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="#" class="btn-secondary" target="_blank">
+                <i class="fab fa-github"></i> View Source Code
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Theme switching for project pages
+        document.addEventListener('DOMContentLoaded', function () {
+            // Load saved theme
+            const savedTheme = localStorage.getItem('portfolio-theme');
+            if (savedTheme) {
+                document.body.classList.add(savedTheme);
+            }
+
+            // Set current year if needed
+            document.getElementById('currentYear')?.textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+
+</html>

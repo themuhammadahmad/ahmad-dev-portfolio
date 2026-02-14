@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Fashion Clone | DevTeam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="container project-detail-container">
+        <a href="index.html#projects" class="back-btn">
+            <i class="fas fa-arrow-left"></i> Back to Portfolio
+        </a>
+        
+        <div class="project-header">
+            <div class="project-badge web">Hotel Aggregator</div>
+            <div class="project-badge ai-training">AI Training Dataset</div>
+            <h1>Trivago Hotel Search Clone</h1>
+            <p class="project-subtitle">
+                Comprehensive hotel price comparison platform replica with real-time search, 
+                filtering, and booking capabilities - designed for AI travel algorithm training.
+            </p>
+        </div>
+
+        <div class="project-video-section">
+            <h2 class="section-label"><i class="fas fa-play-circle"></i> Search Engine Demo</h2>
+            <div class="video-container">
+                <video controls poster="projects/Trivago/images/with-filters.png">
+                    <source src="projects/Trivago/tutorial/trivago_tutorial.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-caption">Hotel search and comparison engine showing price aggregation across multiple providers</div>
+            </div>
+        </div>
+
+        <div class="ai-purpose">
+            <h3><i class="fas fa-robot"></i> AI Training Purpose</h3>
+            <p>
+                This Trivago clone was engineered to train machine learning models in 
+                travel aggregation algorithms, price prediction systems, and hotel 
+                recommendation engines. The platform simulates real-world hotel search 
+                scenarios for AI learning optimal pricing strategies and user preference matching.
+            </p>
+        </div>
+
+        <div class="project-gallery">
+            <h2 class="section-label"><i class="fas fa-images"></i> Platform Screenshots</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="projects/Trivago/images/full-page.png" alt="Search Interface">
+                    <div class="gallery-caption">Intelligent hotel search with location-based results</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="projects/Trivago/images/with-filters.png" alt="Price Comparison">
+                    <div class="gallery-caption">Multi-provider price comparison grid</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="projects/Trivago/images/without-filters.png" alt="Hotel Details">
+                    <div class="gallery-caption">Detailed hotel information with amenities</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="project-details">
+            <h2 class="section-label"><i class="fas fa-info-circle"></i> Technical Implementation</h2>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <h3><i class="fas fa-bullseye"></i> Project Goal</h3>
+                    <p>Build a sophisticated hotel aggregation platform clone to generate training data for AI models specializing in travel industry algorithms, dynamic pricing, and personalized recommendation systems.</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-tools"></i> Technology Architecture</h3>
+                    <ul class="tech-list">
+                        <li>Vue.js Frontend</li>
+                        <li>Python Flask Backend</li>
+                        <li>PostgreSQL Database</li>
+                        <li>Redis Caching</li>
+                        <li>Google Maps API</li>
+                        <li>WebSocket Real-time</li>
+                        <li>Docker Containers</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-check-circle"></i> Core Features</h3>
+                    <ul>
+                        <li>Real-time hotel price aggregation</li>
+                        <li>Advanced search with multiple criteria</li>
+                        <li>Interactive map integration</li>
+                        <li>User reviews and ratings system</li>
+                        <li>Price alert notifications</li>
+                        <li>Multi-language support</li>
+                        <li>Responsive web design</li>
+                        <li>Booking management system</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-database"></i> AI Training Dataset</h3>
+                    <ul>
+                        <li>5,000+ simulated hotel listings</li>
+                        <li>50,000+ price comparison scenarios</li>
+                        <li>User preference patterns</li>
+                        <li>Booking prediction data</li>
+                        <li>Seasonal price variations</li>
+                        <li>Location-based search patterns</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-users"></i> Team Contributions</h3>
+                    <ul>
+                        <li>Muhammad Ahmad: Search Algorithm</li>
+                        <li>Hamza Maqbool: Backend API Development</li>
+                        <li>Sarah Rodriguez: UI/UX Design</li>
+                        <li>Alex Kim: Mobile Responsiveness</li>
+                        <li>Tom Johnson: Cloud Deployment</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-calendar-alt"></i> Development Timeline</h3>
+                    <ul>
+                        <li>Research & Planning: 10 days</li>
+                        <li>Core Development: 25 days</li>
+                        <li>Testing & Optimization: 8 days</li>
+                        <li>AI Dataset Generation: 5 days</li>
+                        <li>Documentation: 3 days</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-cta">
+            <a href="#" class="btn-primary" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Experience Demo
+            </a>
+            <a href="#" class="btn-secondary" target="_blank">
+                <i class="fab fa-github"></i> View Code Repository
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('portfolio-theme');
+            if (savedTheme) {
+                document.body.classList.add(savedTheme);
+            }
+        });
+    </script>
+</body>
+</html>

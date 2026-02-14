@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hipcamp Outdoor Clone | DevTeam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="project.css">
+    <!-- Same CSS as above -->
+    <style>
+        /* Same CSS styles */
+    </style>
+</head>
+<body>
+    <div class="container project-detail-container">
+        <a href="index.html#projects" class="back-btn">
+            <i class="fas fa-arrow-left"></i> Back to Portfolio
+        </a>
+        
+        <div class="project-header">
+            <div class="project-badge web">Outdoor Booking Platform</div>
+            <div class="project-badge ai-training">AI Training Dataset</div>
+            <h1>Hipcamp Outdoor Clone</h1>
+            <p class="project-subtitle">
+                Nature-focused booking platform for campsites, RV parks, and outdoor 
+                experiences - developed for AI training in niche travel markets and 
+                outdoor activity recommendations.
+            </p>
+        </div>
+
+        <div class="project-video-section">
+            <h2 class="section-label"><i class="fas fa-play-circle"></i> Outdoor Booking Demo</h2>
+            <div class="video-container">
+                <video controls poster="projects/Hipcamp/images/homepage/with-search-inputs.png">
+                    <source src="projects/Hipcamp/tutorial/hipcamp_tutorial.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-caption">Complete booking flow for campsites and outdoor experiences</div>
+            </div>
+        </div>
+
+        <div class="ai-purpose">
+            <h3><i class="fas fa-robot"></i> AI Training Purpose</h3>
+            <p>
+                This Hipcamp clone was created to train AI models in outdoor travel 
+                recommendation systems, campsite availability prediction, and weather-based 
+                booking optimization. The platform provides specialized data for AI learning 
+                in the growing outdoor adventure market.
+            </p>
+        </div>
+
+        <div class="project-gallery">
+            <h2 class="section-label"><i class="fas fa-images"></i> Platform Features</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="projects/Hipcamp/images/homepage/full-page.png" alt="Outdoor Homepage">
+                    <div class="gallery-caption">Nature-inspired homepage with campsite listings</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="projects/Hipcamp/images/homepage/with-search-inputs.png" alt="Outdoor Homepage">
+                    <div class="gallery-caption">Nature-inspired homepage with campsite listings</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="projects/Hipcamp/images/homepage/without-search-inputs.png" alt="Outdoor Homepage">
+                    <div class="gallery-caption">Nature-inspired homepage with campsite listings</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="project-details">
+            <h2 class="section-label"><i class="fas fa-info-circle"></i> Project Specifications</h2>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <h3><i class="fas fa-bullseye"></i> Development Objective</h3>
+                    <p>Create a comprehensive outdoor booking platform clone to generate specialized training data for AI models focusing on nature travel, seasonal booking patterns, and outdoor experience recommendations.</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-tools"></i> Technology Implementation</h3>
+                    <ul class="tech-list">
+                        <li>React.js with Hooks</li>
+                        <li>Node.js & Express.js</li>
+                        <li>MongoDB with Geospatial</li>
+                        <li>Mapbox Integration</li>
+                        <li>Stripe Payment System</li>
+                        <li>Cloudinary for Images</li>
+                        <li>Jest Testing Framework</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-campground"></i> Platform Features</h3>
+                    <ul>
+                        <li>Campsite & RV park listings</li>
+                        <li>Map-based property discovery</li>
+                        <li>Weather integration</li>
+                        <li>Host property management</li>
+                        <li>Review & rating system</li>
+                        <li>Seasonal pricing</li>
+                        <li>Mobile booking app</li>
+                        <li>Outdoor activity guides</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-database"></i> AI Dataset Generated</h3>
+                    <ul>
+                        <li>1,000+ campsite scenarios</li>
+                        <li>Weather-based booking patterns</li>
+                        <li>Seasonal demand data</li>
+                        <li>Outdoor activity preferences</li>
+                        <li>Geographic distribution patterns</li>
+                        <li>Equipment rental behaviors</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-users"></i> Team Collaboration</h3>
+                    <ul>
+                        <li>Muhammad Ahmad: Frontend & Map Integration</li>
+                        <li>Hamza Maqbool: Backend & Database Design</li>
+                        <li>Sarah Rodriguez: Nature-Inspired UI/UX</li>
+                        <li>Alex Kim: Mobile Application</li>
+                        <li>Tom Johnson: Deployment & Monitoring</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-chart-line"></i> Business Impact</h3>
+                    <ul>
+                        <li>Specialized outdoor AI training</li>
+                        <li>Seasonal prediction models</li>
+                        <li>Geographic demand forecasting</li>
+                        <li>Weather-impact analysis</li>
+                        <li>Niche market AI optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-cta">
+            <a href="#" class="btn-primary" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Explore Demo
+            </a>
+            <a href="#" class="btn-secondary" target="_blank">
+                <i class="fab fa-github"></i> Access Source Code
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('portfolio-theme');
+            if (savedTheme) {
+                document.body.classList.add(savedTheme);
+            }
+        });
+    </script>
+</body>
+</html>
